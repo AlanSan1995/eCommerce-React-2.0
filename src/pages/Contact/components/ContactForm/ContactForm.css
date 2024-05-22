@@ -1,0 +1,66 @@
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+  margin: 20px;
+}
+.ContactInputGroup {
+  display: flex;
+  flex-direction: column;
+}
+.ContactInputGroup > label {
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #727272;
+}
+.ContactInputGroup > input {
+  width: calc(100% - 32px);
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #dee2e7;
+  outline: 0;
+}
+.ContactInputGroup > input:focus {
+  outline: 2px solid #dee2e7;
+}
+.ContactInputGroup > input::placeholder {
+  color: #c0c0c0;
+}
+.ContactInputGroup > textarea {
+  width: calc(100% - 32px);
+  height: 100px;
+  font-size: 16px;
+  padding: 16px;
+  border-radius: 8px;
+  border: 1px solid #dee2e7;
+  outline: 0;
+  resize: none;
+}
+.ContactInputGroup > textarea::placeholder {
+  color: #c0c0c0;
+}
+.ContactInputGroup > textarea:focus {
+  outline: 2px solid #dee2e7;
+}
+.ContactSendButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContactSendButton > button {
+  font-size: 16px;
+  padding: 10px;
+  background: 0;
+  border: 1px solid #85ce41;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #95e649;
+  transition: 0.3s;
+}
+.ContactSendButton > button:hover {
+  background-color: #95e649;
+  color: #ffffff;
+}

@@ -1,0 +1,59 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #dee2e7;
+}
+
+.FooterSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 0px 50px;
+}
+.FooterSectionLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.FooterSectionLinks > h5 {
+  font-size: 18px;
+}
+.FooterSectionLinks > a {
+  text-decoration: none;
+  color: black;
+}
+.FooterSectionSeguinos {
+  margin: 25px 50px;
+}
+.FooterSectionSeguinos > h5 {
+  margin-bottom: 5px;
+}
+.FooterSectionNewsletter > div {
+  display: flex;
+}
+.FooterSectionNewsletter > h5 {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 15px;
+}
+.FooterSectionNewsletter > p {
+  font-size: 15px;
+  color: black;
+  margin: 15px 0;
+}
+.FooterSectionNewsletter > div > input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #969696;
+  border-right: 0;
+  border-radius: 5px 0 0 5px;
+}
+.FooterSectionNewsletter > div > button {
+  padding: 3px 7px;
+  cursor: pointer;
+  border: 1px solid #969696;
+  border-radius: 0 5px 5px 0;
+}
+.FooterSectionCopy {
+  background-color: #e7e7e7;
+  padding: 20px 0 20px 50px;
+}

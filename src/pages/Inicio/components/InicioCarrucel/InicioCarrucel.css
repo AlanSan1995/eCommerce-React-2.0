@@ -1,0 +1,40 @@
+.InicioCarrucel {
+  display: flex;
+  justify-content: center;
+  margin: 30px 15%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+}
+
+.InicioCarrucelControls {
+  position: absolute;
+  display: flex;
+  z-index: 10;
+  width: 100%;
+  justify-content: space-between;
+}
+.InicioCarrucelControls > button {
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+.InicioCarrucelControls > button > svg {
+  background: none;
+  font-size: 90px;
+}
+
+.InicioCarrucelContainer {
+  display: flex;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.InicioCarrucelContainer > div {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 5px;
+}

@@ -1,0 +1,9 @@
+.SelectedMap {
+  flex: 1;
+  aspect-ratio: 2/1;
+}
+.SelectedMap > iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}

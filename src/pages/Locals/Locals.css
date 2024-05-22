@@ -1,0 +1,8 @@
+.Locals {
+  padding: 20px 0px;
+}
+.LocalsDirections {
+  background-color: #dee2e7;
+  display: flex;
+  padding: 20px;
+}

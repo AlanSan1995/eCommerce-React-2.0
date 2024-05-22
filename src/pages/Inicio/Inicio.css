@@ -1,0 +1,43 @@
+.Inicio {
+  display: flex;
+  flex-direction: column;
+}
+.InicioLinkTitle {
+  display: flex;
+  text-decoration: none;
+  margin: 30px 0;
+  margin-left: 10%;
+  font-size: 25px;
+  font-weight: 800;
+  color: #000000;
+}
+.InicioVerMas {
+  cursor: pointer;
+  background: none;
+}
+
+.InicioVerMas,
+.InicioIrAProductos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  width: 180px;
+  height: 60px;
+  margin: 20px 0;
+  font-size: 18px;
+  border: 1px solid #dee2e7;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-weight: 500;
+  color: #313131;
+}
+.InicioIrAProductos {
+  text-decoration: none;
+}
+.InicioVerMas:hover,
+.InicioIrAProductos:hover {
+  transform: scale(1.05);
+  background-color: #a5a5a5;
+  color: #ffffff;
+}

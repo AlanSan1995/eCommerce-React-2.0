@@ -1,0 +1,37 @@
+.DirectionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 320px;
+}
+.selectedLocal {
+  background-color: #f0efef !important;
+}
+.DirectionsList > div {
+  background-color: #ffffff;
+  padding: 20px 10px;
+}
+.DirectionsList > div > button {
+  background: none;
+  border: 0;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.DirectionsList > div > p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.DirectionsList > div > a > svg {
+  color: red;
+}
+.DirectionsList > div > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
