@@ -12,7 +12,7 @@ function Header() {
           <Link to='/products'>Productos</Link>
         </li>
         <li>
-          <Link to='/'>ideas e inspiraciones</Link>
+          <Link to='/ideas'>ideas e inspiraciones</Link>
         </li>
         <li>
           <Link to='/locals'>Locales</Link>

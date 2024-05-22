@@ -1,0 +1,58 @@
+.IdeasSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  background-image: url("https://images.pexels.com/photos/22912029/pexels-photo-22912029/free-photo-of-ligero-mar-amanecer-paisaje.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.IdeasSearch > div {
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+.IdeasInputGroup {
+  position: relative;
+  height: 100%;
+  width: 200px;
+}
+.IdeasInputGroup > input {
+  width: calc(100% - 20px);
+  height: 100%;
+  border: 0;
+  outline: none;
+  padding: 0 10px;
+}
+.IdeasButtonDelete {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: none;
+  border: none;
+  color: #b3b3b3;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.IdeasButtonDelete:hover {
+  color: #464646;
+}
+.IdeasButtonSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+  border: 0;
+  background-color: #d8d8d8;
+  padding: 0 5px;
+  transition: 0.3s;
+}
+.IdeasButtonSearch:hover {
+  background-color: #eeeeee;
+}

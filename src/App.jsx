@@ -6,6 +6,7 @@ import Products from "./pages/Products/Products";
 import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Locals from "./pages/Locals/Locals";
+import Ideas from "./pages/Ideas/Ideas";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         />
         <Route path='/contact' element={<Contact />} />
         <Route path='/locals' element={<Locals />} />
+        <Route path='/ideas' element={<Ideas />} />
       </Routes>
       <Footer />
     </BrowserRouter>
