@@ -9,7 +9,6 @@ function Locals() {
 
   return (
     <div className='Locals'>
-      <h3>Locales</h3>
       <div className='LocalsDirections'>
         <DirectionsList
           directions={directions}
