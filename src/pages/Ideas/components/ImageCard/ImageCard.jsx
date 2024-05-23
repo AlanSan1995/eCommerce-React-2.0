@@ -1,8 +1,8 @@
 import "./ImageCard.css";
 
-function ImageCard({ image }) {
+function ImageCard({ image, onSelectImage }) {
   return (
-    <button className='ImageCard'>
+    <button className='ImageCard' onClick={() => onSelectImage(image)}>
       <div
         className='ImageCardImage'
         style={{ backgroundImage: `url(${image.image})` }}></div>

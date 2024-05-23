@@ -8,6 +8,7 @@ import CloseIcon from "@mui/icons-material/Close";
 function Ideas() {
   const [searchValue, setSearchValue] = useState("");
   const [images, setImages] = useState(imagesSpacesDesign);
+
   const inputChange = (e) => {
     setSearchValue(e.target.value);
   };
@@ -15,10 +16,15 @@ function Ideas() {
   const searchData = () => {
     if (searchValue) {
       setImages(
-        imagesSpacesDesign.filter((img) => img.name.startsWith(searchValue))
+        imagesSpacesDesign.filter((img) =>
+          img.name.toLowerCase().startsWith(searchValue.toLocaleLowerCase())
+        )
       );
+    } else {
+      setImages(imagesSpacesDesign);
     }
   };
+
   return (
     <div className='Ideas'>
       <div className='IdeasSearch'>

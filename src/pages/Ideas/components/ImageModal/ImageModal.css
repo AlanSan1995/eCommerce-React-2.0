@@ -1,0 +1,49 @@
+.ImageModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.ImageModalBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.3;
+}
+.ImageModalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 20;
+  background-color: aliceblue;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.ImageModalContent > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.ImageModalContent > div > button {
+  border: 0;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.ImageModalContent > div > button > svg {
+  font-size: 25px;
+}
+.ImageModalContent > img {
+  width: 100%;
+}
