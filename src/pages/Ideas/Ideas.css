@@ -56,3 +56,6 @@
 .IdeasButtonSearch:hover {
   background-color: #eeeeee;
 }
+
+@media (max-width: 780px) {
+}

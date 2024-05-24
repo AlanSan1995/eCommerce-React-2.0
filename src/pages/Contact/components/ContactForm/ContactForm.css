@@ -64,3 +64,8 @@
   background-color: #95e649;
   color: #ffffff;
 }
+@media (max-width: 780px) {
+  .ContactForm {
+    width: 90%;
+  }
+}

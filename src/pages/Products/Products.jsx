@@ -44,8 +44,10 @@ function Products() {
             className={
               categoriesDropDown == 1 ? "SubCategoriesDropDownShow" : " "
             }>
-            {subCategories.TALLER.map((subCategory) => (
-              <Link to={`/products/${categories.TALLER}/${subCategory}`}>
+            {subCategories.TALLER.map((subCategory, index) => (
+              <Link
+                to={`/products/${categories.TALLER}/${subCategory}`}
+                key={index + 1}>
                 {wordToUpercase(subCategory)}
               </Link>
             ))}
@@ -60,8 +62,10 @@ function Products() {
             className={
               categoriesDropDown == 2 ? "SubCategoriesDropDownShow" : " "
             }>
-            {subCategories.CONTRUCCION.map((subCategory) => (
-              <Link to={`/products/${categories.CONTRUCCION}/${subCategory}`}>
+            {subCategories.CONTRUCCION.map((subCategory, index) => (
+              <Link
+                to={`/products/${categories.CONTRUCCION}/${subCategory}`}
+                key={index + 1}>
                 {wordToUpercase(subCategory)}
               </Link>
             ))}
@@ -76,8 +80,10 @@ function Products() {
             className={
               categoriesDropDown == 3 ? "SubCategoriesDropDownShow" : " "
             }>
-            {subCategories.ELECTRICIDAD.map((subCategory) => (
-              <Link to={`/products/${categories.ELECTRICIDAD}/${subCategory}`}>
+            {subCategories.ELECTRICIDAD.map((subCategory, index) => (
+              <Link
+                to={`/products/${categories.ELECTRICIDAD}/${subCategory}`}
+                key={index + 1}>
                 {wordToUpercase(subCategory)}
               </Link>
             ))}

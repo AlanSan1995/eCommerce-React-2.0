@@ -7,11 +7,15 @@ import Contact from "./pages/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Locals from "./pages/Locals/Locals";
 import Ideas from "./pages/Ideas/Ideas";
+import useScreenSize from "./hooks/UseScreenSize";
+import HeaderMobile from "./components/HeaderMobile/HeaderMobile";
 
 function App() {
+  const { width } = useScreenSize();
   return (
     <BrowserRouter>
-      <Header />
+      {width <= 770 ? <HeaderMobile /> : <Header />}
+
       <Routes>
         <Route path='/' element={<Inicio />} />
         <Route

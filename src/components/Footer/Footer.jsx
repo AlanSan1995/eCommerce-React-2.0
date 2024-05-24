@@ -46,7 +46,7 @@ function Footer() {
         <FacebookIcon />
       </div>
       <div className='FooterSectionCopy'>
-        © 2017 - 2021 Ecommerce Alan | Todos los derechos reservados
+        ©2024 Ecommerce Alan | Todos los derechos reservados
       </div>
     </footer>
   );

@@ -29,3 +29,8 @@
   margin: 5px 10px;
   font-size: 18px;
 }
+@media (max-width: 780px) {
+  .ProductCard {
+    width: calc(50% - 30px / 2);
+  }
+}

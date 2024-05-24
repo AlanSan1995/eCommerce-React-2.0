@@ -82,3 +82,12 @@
   font-weight: 600;
   color: #969696;
 }
+@media (max-width: 780px) {
+  .ProductsCategories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

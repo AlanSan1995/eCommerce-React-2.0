@@ -27,3 +27,8 @@
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
+@media (max-width: 780px) {
+  .InicioCategories > a > h3 {
+    font-size: 13px;
+  }
+}

@@ -24,3 +24,9 @@
   font-size: 15px;
   color: #747677;
 }
+
+@media (max-width: 780px) {
+  .ImageCard {
+    width: calc(100% / 2 - 25px / 2);
+  }
+}
