@@ -1,0 +1,68 @@
+.ProductModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.ProductModalBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.3;
+}
+.ProductModalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 20;
+  background-color: aliceblue;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px;
+}
+.ProductModalContent > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.ProductModalContent > div > button {
+  border: 0;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.ProductModalContent > div > button > svg {
+  font-size: 25px;
+}
+.ProductModalContent > img {
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: contain;
+}
+.ProductModalContent > span {
+  font-size: 20px;
+  margin: 20px;
+}
+.ProductModalContent > p {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 780px) {
+  .ProductModalContent {
+    width: 80%;
+    margin-right: 18px;
+  }
+}

@@ -9,6 +9,7 @@
   overflow: hidden;
   cursor: pointer;
   transition: 0.3s;
+  background: none;
 }
 .ProductCard:hover {
   transform: scale(1.05);
